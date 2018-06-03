@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : GF
+Version: M-2016.12-SP5
+Date   : Thu Dec 14 19:09:06 2017
+****************************************
+
+Operating Conditions: WORST-MIL   Library: c35_CORELIB_WC
+Wire Load Model Mode: enclosed
+
+  Startpoint: inputB[2] (input port)
+  Endpoint: output0[2] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  GF                 10k                   c35_CORELIB_WC
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  inputB[2] (in)                           0.00       0.00 f
+  U35/Q (CLKIN0)                           1.03       1.03 r
+  U32/Q (NAND20)                           0.36       1.39 f
+  U29/Q (IMUX20)                           0.68       2.07 r
+  U28/Q (XNR20)                            1.60       3.67 f
+  U17/Q (XOR40)                            1.58       5.25 r
+  output0[2] (out)                         0.00       5.25 r
+  data arrival time                                   5.25
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
