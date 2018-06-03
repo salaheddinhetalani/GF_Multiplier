@@ -20,10 +20,10 @@ The following table shows all the possible combinations of the input values and 
 
 ![screenshot from 2018-06-04 00 52 41](https://user-images.githubusercontent.com/28307467/40892124-80fea394-6792-11e8-8db1-a9c01c28961d.png)
 
-### Verification of the design:
+### Simulation
 
 #### Behavioural simulation:
 By writing a test bench that covers the whole 64 possible cases and running the simulation, the design can be verified by checking that all the output values are the same as the corresponding ones listed in the table.
 
-### Post synthesis simulation: 
+#### Post synthesis simulation: 
 By writing a test bench that covers the whole 64 possible cases, including the HDL library files for AMS 0.35 um technology and running the simulation, the design can be verified by checking that all the output values are the same as the corresponding ones listed in the table.
